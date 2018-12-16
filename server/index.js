@@ -22,6 +22,7 @@ let items = [
   { id: uuidv4(), item: "Learn about PWAs" },
   { id: uuidv4(), item: "Make an awesome app" },
   { id: uuidv4(), item: "This is awesome!" },
+  { id: uuidv4(), item: "Test" },
 ];
 
 app

@@ -10,10 +10,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "lib": ["esnext", "dom", "es2018.promise"]
+    "lib": ["esnext", "dom", "es2018.promise"],
+    "isolatedModules": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/sw.js"]
 }
